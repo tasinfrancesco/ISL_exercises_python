@@ -1,0 +1,23 @@
+Notation:
+
+p = num of variables/features
+n = num of observations
+
+x_ij = value of jth variable (col) for ith observation (row)
+X = nxp matrix
+
+x_i = vector of variables for observation i (row, len = p)
+x_j = vector of observations of variable j (col, len = n)
+
+y_i = ith observation of outcome
+
+observed data will be {(x_1, y_1), ...} (where x_i is a vector of len p)
+
+*a* = vector of len n (always lowercase bold)
+a = vector of len != n (lowercase not bold, e.g., of len p)
+
+*A* = Matrix
+A = RV (rand variable)
+
+a \in R^k = a is nth dimensional
+
